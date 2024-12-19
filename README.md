@@ -1,5 +1,12 @@
 # 数据结构课设-传感器管理系统
-只搭建了基本功能，可以自行扩展其他功能
+
+`sensorSystem_mysql_template`和`sensorSystem_sqlite_template`均为模版
+
+模版只实现了基本功能
+
+![模版界面](./pic/1.png "模版界面")
+
+可以自行扩展其他功能
 
 已实现功能：
 

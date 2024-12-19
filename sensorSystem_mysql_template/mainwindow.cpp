@@ -35,9 +35,9 @@ void MainWindow::setupDatabase()
 {
     db = QSqlDatabase::addDatabase("QMYSQL");
     db.setHostName("localhost");
-    db.setDatabaseName("sensor_data");
-    db.setUserName("root");
-    db.setPassword("560320");
+    db.setDatabaseName("sensor_data");//连接的数据库名字 
+    db.setUserName("root");//mysql用户名 
+    db.setPassword("your mysql password");//mysql密码 
 
     if (!db.open()) {
         QMessageBox::critical(this, "Error", "Failed to connect to database: " + db.lastError().text());
